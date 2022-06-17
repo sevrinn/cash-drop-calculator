@@ -12,5 +12,47 @@
     <h1>Cash Drop Calculator</h1>
     <button id="show-instructions-button">Instructions</button>
   </header>
+  <main>
+     <aside id="instructions-panel">
+      <h3>Instructions</h3>
+      <p>This is where the instructions will go:)</p>
+    </aside>
+    <div class="container">
+      <form action="">
+        <fieldset class="info-collection">
+          <label for="bar-selector">
+        Location:
+        <select id="bar-selector">
+          <option value="">(Select your location...)</option>
+          <option value="bourbon_and_branch">Bourbon & Branch</option>
+          <option value="bourbon_and_branch">Local Edition</option>
+          <option value="bourbon_and_branch">Nightingale</option>
+          <option value="bourbon_and_branch">Pagan Idol</option>
+          <option value="bourbon_and_branch">Rickhouse</option>
+          <option value="bourbon_and_branch">Swig/Bottle Club</option>
+          <option value="bourbon_and_branch">Devil's Acre</option>
+          <option value="bourbon_and_branch">The Lark</option>
+          <option value="bourbon_and_branch">Zombie Village</option>
+          <option value="bourbon_and_branch">Tupper & Reed</option>
+        </select>
+      </label>
+      <label for="start-time">
+        Start Time: 
+        <input type="date" id="start-time"/>
+      </label>
+      <label for="end-time">
+        End Time: 
+        <input type="date" id="end-time"/>
+      </label>
+        </fieldset>
+        <div id="submit-holder">
+          <input type="submit" value="Calculate!">
+        </div>
+        
+    </form>
+    </div>
+   
+    
+  </main>
 </body>
 </html>
