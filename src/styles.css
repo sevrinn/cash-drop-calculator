@@ -12,3 +12,28 @@ header {
   padding: 1em 0;
   background-color: lavenderblush;
 }
+
+aside {
+  background-color: lightblue;
+}
+
+.container {
+  background-color: papayawhip;
+  width: 60%;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
+label {
+  display: block;
+}
+
+.info-collection {
+  display: flex;
+  justify-content: space-around;
+}
+
+#submit-holder {
+  margin: 1em auto 0 auto;
+  text-align: center;
+}
