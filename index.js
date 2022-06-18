@@ -8,6 +8,7 @@ calculateBtn.addEventListener("click", event => {
   event.preventDefault();
   console.log("Location: ",location.value)
   console.log("Start time: ", startTime.value)
+  console.log("End time: ", endTime.value)
   result.innerHTML = "<p>I'm a the reslut</p>";
 })
 
