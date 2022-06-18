@@ -4,6 +4,23 @@ const startTime = document.querySelector("#start-time");
 const endTime = document.querySelector("#end-time");
 const result = document.querySelector("#result")
 
+const instructionsBtn = document.querySelector("#instructions-button");
+const instructionsPanel = document.querySelector("#instructions-panel");
+
+/**
+ * Toggle Instruction Panel
+ */
+
+instructionsBtn.addEventListener("click", event => {
+  console.log("I'm clicked");
+})
+
+
+
+
+/**
+ * Calculate Button
+ */
 calculateBtn.addEventListener("click", event => {
   event.preventDefault();
   console.log("Location: ",location.value)
