@@ -25,34 +25,36 @@
         <select id="bar-selector">
           <option value="">(Select your location...)</option>
           <option value="bourbon_and_branch">Bourbon & Branch</option>
-          <option value="bourbon_and_branch">Local Edition</option>
-          <option value="bourbon_and_branch">Nightingale</option>
-          <option value="bourbon_and_branch">Pagan Idol</option>
-          <option value="bourbon_and_branch">Rickhouse</option>
-          <option value="bourbon_and_branch">Swig/Bottle Club</option>
-          <option value="bourbon_and_branch">Devil's Acre</option>
-          <option value="bourbon_and_branch">The Lark</option>
-          <option value="bourbon_and_branch">Zombie Village</option>
-          <option value="bourbon_and_branch">Tupper & Reed</option>
+          <option value="local_edition">Local Edition</option>
+          <option value="nightingale">Nightingale</option>
+          <option value="pagan-idol">Pagan Idol</option>
+          <option value="rickhouse">Rickhouse</option>
+          <option value="swig">Swig/Bottle Club</option>
+          <option value="devils-acre">Devil's Acre</option>
+          <option value="lark">The Lark</option>
+          <option value="zombie_village">Zombie Village</option>
+          <option value="tupper_and_reed">Tupper & Reed</option>
         </select>
       </label>
       <label for="start-time">
         Start Time: 
-        <input type="date" id="start-time"/>
+        <input type="datetime-local" id="start-time"/>
       </label>
       <label for="end-time">
         End Time: 
-        <input type="date" id="end-time"/>
+        <input type="datetime-local" id="end-time"/>
       </label>
         </fieldset>
         <div id="submit-holder">
-          <input type="submit" value="Calculate!">
+          <input type="submit" value="Calculate!" id="calculate">
         </div>
         
     </form>
-    </div>
+    <div id="result"></div>
+    </div><!--end .container-->
    
     
   </main>
+  <script src="../index.js" type="module"></script>
 </body>
 </html>
