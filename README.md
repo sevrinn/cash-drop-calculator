@@ -16,8 +16,8 @@ Interface
 - [ ] instructions panel 
 - [ ] link instructions button and panel to toggle show/hide
 - [ ] selection input with the name of bars (hardcoded for now)
-- [ ] time/date selector 
-- [ ] connect css and js to html
+- [ ] time/date selector (how to get correct format square api needs? UTC)
+- [x] connect css and js to html
 - [ ] make decent with minimal css. can go hard on this later.
 API
 - [ ] ensure tokens are secure
