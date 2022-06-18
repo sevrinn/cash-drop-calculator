@@ -31,9 +31,29 @@ label {
 .info-collection {
   display: flex;
   justify-content: space-around;
+  
 }
 
 #submit-holder {
   margin: 1em auto 0 auto;
   text-align: center;
+}
+
+input[type="submit"]
+ {
+  width: 30%;
+  height: 3em;
+}
+
+input[type="datetime-local"],
+#bar-selector {
+  
+  height: 30px;
+}
+
+fieldset {
+  padding: 2em;
+  width: 80%;
+  margin: 0 auto;
+  border: none;
 }
