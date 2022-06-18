@@ -57,3 +57,13 @@ fieldset {
   margin: 0 auto;
   border: none;
 }
+
+#instructions-panel {
+  width: 60%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+ol li {
+  margin: 5px 0 0 1em;
+}
